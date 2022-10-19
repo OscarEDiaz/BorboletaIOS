@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>946347892054-0euugnu2v7jc8d20m4lv83k25sfd0ec7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.946347892054-0euugnu2v7jc8d20m4lv83k25sfd0ec7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBBtK3ZP1d6Au05VD5xeFO_pwEY0gE7vTM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>946347892054</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.T1T.BorboletaIOS</string>
+	<key>PROJECT_ID</key>
+	<string>borboleta-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>borboleta-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:946347892054:ios:d3fb78fe4282c5b223caf7</string>
+</dict>
+</plist>

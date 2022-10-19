@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F91D1DB428FC7B710076332B /* RegisterTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91D1DB328FC7B710076332B /* RegisterTwoController.swift */; };
+		F92F5BD128FA046B00D200D8 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F5BD028FA046B00D200D8 /* CustomButtons.swift */; };
+		F93BF21628F9FFF9004BF362 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F93BF21528F9FFF9004BF362 /* Fonts */; };
+		F93BF21728F9FFF9004BF362 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F93BF21528F9FFF9004BF362 /* Fonts */; };
+		F93BF21828F9FFF9004BF362 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F93BF21528F9FFF9004BF362 /* Fonts */; };
+		F93DEDA528FE39CF00E62D85 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F93DEDA428FE39CF00E62D85 /* FirebaseAuth */; };
+		F93DEDA728FE39CF00E62D85 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F93DEDA628FE39CF00E62D85 /* FirebaseFirestore */; };
+		F93DEDA928FE39CF00E62D85 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F93DEDA828FE39CF00E62D85 /* FirebaseStorage */; };
+		F98C00FF28F9FEC000886C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98C00FE28F9FEC000886C23 /* AppDelegate.swift */; };
+		F98C010128F9FEC000886C23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98C010028F9FEC000886C23 /* SceneDelegate.swift */; };
+		F98C010328F9FEC000886C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98C010228F9FEC000886C23 /* ViewController.swift */; };
+		F98C010628F9FEC000886C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98C010428F9FEC000886C23 /* Main.storyboard */; };
+		F98C010828F9FEC100886C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98C010728F9FEC100886C23 /* Assets.xcassets */; };
+		F98C010B28F9FEC100886C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98C010928F9FEC100886C23 /* LaunchScreen.storyboard */; };
+		F98C011628F9FEC100886C23 /* BorboletaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98C011528F9FEC100886C23 /* BorboletaIOSTests.swift */; };
+		F98C012028F9FEC100886C23 /* BorboletaIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98C011F28F9FEC100886C23 /* BorboletaIOSUITests.swift */; };
+		F98C012228F9FEC100886C23 /* BorboletaIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98C012128F9FEC100886C23 /* BorboletaIOSUITestsLaunchTests.swift */; };
+		F9A2691B28FCF7710042307E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2691A28FCF7710042307E /* Constants.swift */; };
+		F9A2691C28FCF7710042307E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2691A28FCF7710042307E /* Constants.swift */; };
+		F9A2691D28FCF7710042307E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2691A28FCF7710042307E /* Constants.swift */; };
+		F9A2691F28FD02860042307E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2691E28FD02860042307E /* User.swift */; };
+		F9A2692028FD02860042307E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2691E28FD02860042307E /* User.swift */; };
+		F9A2692128FD02860042307E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2691E28FD02860042307E /* User.swift */; };
+		F9E1286028FB0F990044FB25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E1285F28FB0F990044FB25 /* GoogleService-Info.plist */; };
+		F9E1286128FB0F990044FB25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E1285F28FB0F990044FB25 /* GoogleService-Info.plist */; };
+		F9E1286228FB0F990044FB25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9E1285F28FB0F990044FB25 /* GoogleService-Info.plist */; };
+		F9E1286428FB19B60044FB25 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1286328FB19B60044FB25 /* RegisterController.swift */; };
+		F9E1286528FB19B60044FB25 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1286328FB19B60044FB25 /* RegisterController.swift */; };
+		F9E1286628FB19B60044FB25 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1286328FB19B60044FB25 /* RegisterController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F98C011228F9FEC100886C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F98C00F328F9FEC000886C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F98C00FA28F9FEC000886C23;
+			remoteInfo = BorboletaIOS;
+		};
+		F98C011C28F9FEC100886C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F98C00F328F9FEC000886C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F98C00FA28F9FEC000886C23;
+			remoteInfo = BorboletaIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F91D1DB328FC7B710076332B /* RegisterTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTwoController.swift; sourceTree = "<group>"; };
+		F92F5BD028FA046B00D200D8 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		F93BF21528F9FFF9004BF362 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		F98C00FB28F9FEC000886C23 /* BorboletaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorboletaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98C00FE28F9FEC000886C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F98C010028F9FEC000886C23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F98C010228F9FEC000886C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F98C010528F9FEC000886C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F98C010728F9FEC100886C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F98C010A28F9FEC100886C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F98C010C28F9FEC100886C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98C011128F9FEC100886C23 /* BorboletaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorboletaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98C011528F9FEC100886C23 /* BorboletaIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorboletaIOSTests.swift; sourceTree = "<group>"; };
+		F98C011B28F9FEC100886C23 /* BorboletaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorboletaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98C011F28F9FEC100886C23 /* BorboletaIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorboletaIOSUITests.swift; sourceTree = "<group>"; };
+		F98C012128F9FEC100886C23 /* BorboletaIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorboletaIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9A2691A28FCF7710042307E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F9A2691E28FD02860042307E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F9E1285F28FB0F990044FB25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9E1286328FB19B60044FB25 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F98C00F828F9FEC000886C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93DEDA528FE39CF00E62D85 /* FirebaseAuth in Frameworks */,
+				F93DEDA728FE39CF00E62D85 /* FirebaseFirestore in Frameworks */,
+				F93DEDA928FE39CF00E62D85 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98C010E28F9FEC100886C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98C011828F9FEC100886C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F98C00F228F9FEC000886C23 = {
+			isa = PBXGroup;
+			children = (
+				F98C00FD28F9FEC000886C23 /* BorboletaIOS */,
+				F98C011428F9FEC100886C23 /* BorboletaIOSTests */,
+				F98C011E28F9FEC100886C23 /* BorboletaIOSUITests */,
+				F98C00FC28F9FEC000886C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F98C00FC28F9FEC000886C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F98C00FB28F9FEC000886C23 /* BorboletaIOS.app */,
+				F98C011128F9FEC100886C23 /* BorboletaIOSTests.xctest */,
+				F98C011B28F9FEC100886C23 /* BorboletaIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F98C00FD28F9FEC000886C23 /* BorboletaIOS */ = {
+			isa = PBXGroup;
+			children = (
+				F98C013028F9FEED00886C23 /* Models */,
+				F98C012E28F9FECF00886C23 /* Controllers */,
+				F98C012F28F9FEDA00886C23 /* Views */,
+				F98C00FE28F9FEC000886C23 /* AppDelegate.swift */,
+				F98C010028F9FEC000886C23 /* SceneDelegate.swift */,
+				F93BF21528F9FFF9004BF362 /* Fonts */,
+				F9A2691A28FCF7710042307E /* Constants.swift */,
+				F98C010728F9FEC100886C23 /* Assets.xcassets */,
+				F98C010C28F9FEC100886C23 /* Info.plist */,
+				F9E1285F28FB0F990044FB25 /* GoogleService-Info.plist */,
+			);
+			path = BorboletaIOS;
+			sourceTree = "<group>";
+		};
+		F98C011428F9FEC100886C23 /* BorboletaIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F98C011528F9FEC100886C23 /* BorboletaIOSTests.swift */,
+			);
+			path = BorboletaIOSTests;
+			sourceTree = "<group>";
+		};
+		F98C011E28F9FEC100886C23 /* BorboletaIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F98C011F28F9FEC100886C23 /* BorboletaIOSUITests.swift */,
+				F98C012128F9FEC100886C23 /* BorboletaIOSUITestsLaunchTests.swift */,
+			);
+			path = BorboletaIOSUITests;
+			sourceTree = "<group>";
+		};
+		F98C012E28F9FECF00886C23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F98C010228F9FEC000886C23 /* ViewController.swift */,
+				F9E1286328FB19B60044FB25 /* RegisterController.swift */,
+				F91D1DB328FC7B710076332B /* RegisterTwoController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F98C012F28F9FEDA00886C23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F98C010428F9FEC000886C23 /* Main.storyboard */,
+				F98C010928F9FEC100886C23 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F98C013028F9FEED00886C23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F92F5BD028FA046B00D200D8 /* CustomButtons.swift */,
+				F9A2691E28FD02860042307E /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F98C00FA28F9FEC000886C23 /* BorboletaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98C012528F9FEC100886C23 /* Build configuration list for PBXNativeTarget "BorboletaIOS" */;
+			buildPhases = (
+				F98C00F728F9FEC000886C23 /* Sources */,
+				F98C00F828F9FEC000886C23 /* Frameworks */,
+				F98C00F928F9FEC000886C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BorboletaIOS;
+			packageProductDependencies = (
+				F93DEDA428FE39CF00E62D85 /* FirebaseAuth */,
+				F93DEDA628FE39CF00E62D85 /* FirebaseFirestore */,
+				F93DEDA828FE39CF00E62D85 /* FirebaseStorage */,
+			);
+			productName = BorboletaIOS;
+			productReference = F98C00FB28F9FEC000886C23 /* BorboletaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F98C011028F9FEC100886C23 /* BorboletaIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98C012828F9FEC100886C23 /* Build configuration list for PBXNativeTarget "BorboletaIOSTests" */;
+			buildPhases = (
+				F98C010D28F9FEC100886C23 /* Sources */,
+				F98C010E28F9FEC100886C23 /* Frameworks */,
+				F98C010F28F9FEC100886C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F98C011328F9FEC100886C23 /* PBXTargetDependency */,
+			);
+			name = BorboletaIOSTests;
+			productName = BorboletaIOSTests;
+			productReference = F98C011128F9FEC100886C23 /* BorboletaIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F98C011A28F9FEC100886C23 /* BorboletaIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98C012B28F9FEC100886C23 /* Build configuration list for PBXNativeTarget "BorboletaIOSUITests" */;
+			buildPhases = (
+				F98C011728F9FEC100886C23 /* Sources */,
+				F98C011828F9FEC100886C23 /* Frameworks */,
+				F98C011928F9FEC100886C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F98C011D28F9FEC100886C23 /* PBXTargetDependency */,
+			);
+			name = BorboletaIOSUITests;
+			productName = BorboletaIOSUITests;
+			productReference = F98C011B28F9FEC100886C23 /* BorboletaIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F98C00F328F9FEC000886C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F98C00FA28F9FEC000886C23 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F98C011028F9FEC100886C23 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F98C00FA28F9FEC000886C23;
+					};
+					F98C011A28F9FEC100886C23 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F98C00FA28F9FEC000886C23;
+					};
+				};
+			};
+			buildConfigurationList = F98C00F628F9FEC000886C23 /* Build configuration list for PBXProject "BorboletaIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F98C00F228F9FEC000886C23;
+			packageReferences = (
+				F93DEDA328FE39CF00E62D85 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F98C00FC28F9FEC000886C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F98C00FA28F9FEC000886C23 /* BorboletaIOS */,
+				F98C011028F9FEC100886C23 /* BorboletaIOSTests */,
+				F98C011A28F9FEC100886C23 /* BorboletaIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F98C00F928F9FEC000886C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98C010B28F9FEC100886C23 /* LaunchScreen.storyboard in Resources */,
+				F98C010828F9FEC100886C23 /* Assets.xcassets in Resources */,
+				F9E1286028FB0F990044FB25 /* GoogleService-Info.plist in Resources */,
+				F98C010628F9FEC000886C23 /* Main.storyboard in Resources */,
+				F93BF21628F9FFF9004BF362 /* Fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98C010F28F9FEC100886C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93BF21728F9FFF9004BF362 /* Fonts in Resources */,
+				F9E1286128FB0F990044FB25 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98C011928F9FEC100886C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93BF21828F9FFF9004BF362 /* Fonts in Resources */,
+				F9E1286228FB0F990044FB25 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F98C00F728F9FEC000886C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E1286428FB19B60044FB25 /* RegisterController.swift in Sources */,
+				F91D1DB428FC7B710076332B /* RegisterTwoController.swift in Sources */,
+				F92F5BD128FA046B00D200D8 /* CustomButtons.swift in Sources */,
+				F98C010328F9FEC000886C23 /* ViewController.swift in Sources */,
+				F9A2691F28FD02860042307E /* User.swift in Sources */,
+				F9A2691B28FCF7710042307E /* Constants.swift in Sources */,
+				F98C00FF28F9FEC000886C23 /* AppDelegate.swift in Sources */,
+				F98C010128F9FEC000886C23 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98C010D28F9FEC100886C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A2692028FD02860042307E /* User.swift in Sources */,
+				F9E1286528FB19B60044FB25 /* RegisterController.swift in Sources */,
+				F98C011628F9FEC100886C23 /* BorboletaIOSTests.swift in Sources */,
+				F9A2691C28FCF7710042307E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98C011728F9FEC100886C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98C012028F9FEC100886C23 /* BorboletaIOSUITests.swift in Sources */,
+				F98C012228F9FEC100886C23 /* BorboletaIOSUITestsLaunchTests.swift in Sources */,
+				F9E1286628FB19B60044FB25 /* RegisterController.swift in Sources */,
+				F9A2692128FD02860042307E /* User.swift in Sources */,
+				F9A2691D28FCF7710042307E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F98C011328F9FEC100886C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F98C00FA28F9FEC000886C23 /* BorboletaIOS */;
+			targetProxy = F98C011228F9FEC100886C23 /* PBXContainerItemProxy */;
+		};
+		F98C011D28F9FEC100886C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F98C00FA28F9FEC000886C23 /* BorboletaIOS */;
+			targetProxy = F98C011C28F9FEC100886C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F98C010428F9FEC000886C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98C010528F9FEC000886C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F98C010928F9FEC100886C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98C010A28F9FEC100886C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F98C012328F9FEC100886C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F98C012428F9FEC100886C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F98C012628F9FEC100886C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W55MNH97J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BorboletaIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.T1T.BorboletaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F98C012728F9FEC100886C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W55MNH97J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BorboletaIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.T1T.BorboletaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F98C012928F9FEC100886C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W55MNH97J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.T1T.BorboletaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BorboletaIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BorboletaIOS";
+			};
+			name = Debug;
+		};
+		F98C012A28F9FEC100886C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W55MNH97J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.T1T.BorboletaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BorboletaIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BorboletaIOS";
+			};
+			name = Release;
+		};
+		F98C012C28F9FEC100886C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W55MNH97J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.T1T.BorboletaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BorboletaIOS;
+			};
+			name = Debug;
+		};
+		F98C012D28F9FEC100886C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W55MNH97J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.T1T.BorboletaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BorboletaIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F98C00F628F9FEC000886C23 /* Build configuration list for PBXProject "BorboletaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98C012328F9FEC100886C23 /* Debug */,
+				F98C012428F9FEC100886C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98C012528F9FEC100886C23 /* Build configuration list for PBXNativeTarget "BorboletaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98C012628F9FEC100886C23 /* Debug */,
+				F98C012728F9FEC100886C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98C012828F9FEC100886C23 /* Build configuration list for PBXNativeTarget "BorboletaIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98C012928F9FEC100886C23 /* Debug */,
+				F98C012A28F9FEC100886C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98C012B28F9FEC100886C23 /* Build configuration list for PBXNativeTarget "BorboletaIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98C012C28F9FEC100886C23 /* Debug */,
+				F98C012D28F9FEC100886C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F93DEDA328FE39CF00E62D85 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F93DEDA428FE39CF00E62D85 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93DEDA328FE39CF00E62D85 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F93DEDA628FE39CF00E62D85 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93DEDA328FE39CF00E62D85 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F93DEDA828FE39CF00E62D85 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F93DEDA328FE39CF00E62D85 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F98C00F328F9FEC000886C23 /* Project object */;
+}
